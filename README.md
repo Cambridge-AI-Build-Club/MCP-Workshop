@@ -225,7 +225,7 @@ A more advanced server with event management.
 Run your own client to interact with MCP servers:
 
 ```bash
-uv run 2-mcp-client/client-cli.py 1-mcp-server/my_calendar.py
+uv run 2-mcp-client/client_cli.py 1-mcp-server/my_calendar.py
 ```
 
 Try queries like:
