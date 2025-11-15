@@ -9,10 +9,23 @@ A hands-on workshop introducing MCP using Claude. This workshop progresses from 
 
 ## Quick Setup
 
-```bash
-# Install uv (if not already installed)
-pip install uv
+Open a new terminal and install `uv`:
 
+```bash
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# you can also install uv with pip: pip install uv
+# if you prefer homebrew: brew install uv
+# or winget on Windows: winget install --id=astral-sh.uv  -e
+```
+
+Then open Terminal in the project directory and run:
+
+```bash
 # Create virtual environment
 uv venv
 
